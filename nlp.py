@@ -69,8 +69,8 @@ pred=classifier.predict(X_test)
 from sklearn.metrics import confusion_matrix
 cm=confusion_matrix(y_test,pred)"""
 
-#using random forest classification model(72%)
-#splitting the dataset
+#using random forest classification model(76%)
+#splitting the dataset into training and testing units
 from sklearn.cross_validation import train_test_split
 X_train,X_test,y_train,y_test=train_test_split(X,y,test_size=0.20,random_state=0)
 
