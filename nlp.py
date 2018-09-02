@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 #importing the dataset
 dataset=pd.read_csv("Restaurant_Reviews.tsv",delimiter="\t",quoting=3)
 
-#Cleaning the texts
+#Cleaning the text
 import re
 import nltk
 nltk.download("stopwords")
